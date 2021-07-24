@@ -1,0 +1,12 @@
+.Heading {
+    text-align: center;
+}
+
+.HeaderElementList {
+    text-align: center;
+}
+
+.HeaderElement {
+    display: inline;
+    padding-right: 2rem;
+}
