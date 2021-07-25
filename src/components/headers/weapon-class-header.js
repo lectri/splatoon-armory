@@ -14,7 +14,7 @@ const WeaponHeader = () => {
             <GenericHeader>
                 <ul className={HeaderElementList}>
                     <li className={HeaderElement}><Link to='../shooter'>Shooter</Link></li>
-                    <li className={HeaderElement}><Link>Roller</Link></li>
+                    <li className={HeaderElement}><Link to='../roller'>Roller</Link></li>
                     <li className={HeaderElement}><Link>Charger</Link></li>
                     <li className={HeaderElement}><Link>Slosher</Link></li>
                     <li className={HeaderElement}><Link>Splatling</Link></li>
