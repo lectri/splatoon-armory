@@ -1,7 +1,7 @@
 import * as React from "react";
 import WeaponHeader from "../../components/headers/weapon-class-header";
 
-const WeaponClasses = () => {
+const WeaponClassesPage = () => {
   return (
     <div>
       <WeaponHeader/>
@@ -15,4 +15,4 @@ const WeaponClasses = () => {
   )
 }
 
-export default WeaponClasses;
+export default WeaponClassesPage;

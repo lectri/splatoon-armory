@@ -3,7 +3,7 @@ import WeaponHeader from "../../components/headers/weapon-class-header";
 import Layout from '../../components/layouts/weapon_classes/layout';
 import picture from '../../images/splattershot.jpeg';
 
-const Shooter = () => {
+const ShooterPage = () => {
     return (
         <div>
             <WeaponHeader />
@@ -25,4 +25,4 @@ const Shooter = () => {
     )
 }
 
-export default Shooter;
+export default ShooterPage;
