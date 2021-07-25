@@ -3,6 +3,6 @@
 }
 
 .HeaderElement {
-    display: inline;
+    display: inline-block;
     padding-right: 2rem;
 }
