@@ -1,6 +1,11 @@
 # splatoon-armory
 ## About
 A website about Splatoon 2 guns and fighting. It will have general information about weapon classes, sub-weapon classes, special weapons, and probably more.
+## Run Locally
+1. Run this in your terminal: `git clone https://github.com/lectri/splatoon-armory`. This will clone the repo to your machine.
+2. Then run `cd splatoon-armory` and `npm install`. This install required dependencies, this might take a while so be patient.
+3. Lasty run `npm run develop`, to start the website, go to http://localhost:8000/ to view it in a browser.
+
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
