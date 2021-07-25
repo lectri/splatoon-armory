@@ -17,6 +17,16 @@ const description = (
     </div>
 );
 
+const stats = (
+    <div>
+        <ul>
+            <li>Range: 48/100</li>
+            <li>Ink Speed: 45/100</li>
+            <li>Handling: 55/100</li>
+        </ul>
+    </div>
+)
+
 const RollerPage = () => {
     return (
         <div>
@@ -26,13 +36,8 @@ const RollerPage = () => {
             description={description}
             image={picture}
             imageAlt='Splat Roller'
-            >
-                <ul>
-                    <li>Range: 48/100</li>
-                    <li>Ink Speed: 45/100</li>
-                    <li>Handling: 55/100</li>
-                </ul>
-            </Layout>
+            stats={stats}
+            />
         </div>
     );
 }
