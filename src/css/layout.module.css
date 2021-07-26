@@ -1,6 +1,9 @@
 .WeaponImage {
+    /*This positions the image at the middle horizontally
+    and adds a thick white border around the image*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 350px;
+    border: 5px solid white;
 }
