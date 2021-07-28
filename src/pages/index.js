@@ -7,8 +7,8 @@ const IndexPage = () => {
   return (
     <div>
       <IndexHeader/>
-      <h1 className={Style.Heading}>Home</h1>
-      <p className={Style.Description}>Welcome to the Splatoon 2 Armory. We're all about Splatoon 2's guns and fighting tatics. 
+      <h1 className={Style.heading}>Home</h1>
+      <p className={Style.description}>Welcome to the Splatoon 2 Armory. We're all about Splatoon 2's guns and fighting tatics. 
       Check out the links in the header to learn more.
       </p>
     </div>
