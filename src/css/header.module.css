@@ -1,8 +1,21 @@
-.HeaderElementList {
-    text-align: center;
+/*Custom font headers*/
+@font-face {
+    font-family: splatfont-2;
+    src: url(../css/fonts/Splatfont2.ttf);
 }
 
-.HeaderElement {
+.header-list {
+    text-align: center;
+    padding-bottom: 0.5%;
+}
+
+.header-element {
     display: inline-block;
     padding-right: 2rem;
+    font-family: splatfont-2;
+    color: white;
+}
+
+a {
+    color:white;
 }

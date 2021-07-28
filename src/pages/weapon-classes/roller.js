@@ -1,7 +1,8 @@
 import * as React from 'react';
-import WeaponHeader from '../../components/headers/weapon-class-header';
 import Layout from '../../components/layouts/weapon_classes/layout';
-import picture from '../../images/splat_roller.jpeg'
+import picture from '../../images/splat_roller.jpeg';
+import { rollerBackground } from '../../css/main.module.css';
+import { Helmet } from 'react-helmet';
 
 // Variable used to put JSX tags in a prop
 const description = (
@@ -30,7 +31,9 @@ const stats = (
 const RollerPage = () => {
     return (
         <div>
-            <WeaponHeader/>
+            <Helmet>
+                <body className={rollerBackground}/>
+            </Helmet>
             <Layout
             headingTitle='Splat Roller'
             description={description}

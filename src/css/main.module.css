@@ -1,0 +1,41 @@
+/*This css file should be used in every page*/
+
+/*The splatoon 2 font*/
+@font-face {
+    font-family: splatfont-2;
+    src: url('./fonts/Splatfont2.ttf');
+}
+
+.heading {
+    font-family: splatfont-2;
+    margin: 0%;
+}
+
+.description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    /*This styling on the top makes the container take up the entire screen, 
+    so the background color takes up the entire screen*/
+
+    background-color: #F02D7D; /* Default background color, 
+    but other pages may have diffent ones */
+
+    z-index: -1; /*So background doesn't unintentionally cover content*/
+    color: white;
+    padding-left: 0.5%;
+}
+
+.children {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roller-background {
+    background-color: rgb(47 54	169);
+}
