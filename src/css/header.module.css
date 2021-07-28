@@ -4,12 +4,12 @@
     src: url(../css/fonts/Splatfont2.ttf);
 }
 
-.HeaderElementList {
+.header-list {
     text-align: center;
     padding-bottom: 0.5%;
 }
 
-.HeaderElement {
+.header-element {
     display: inline-block;
     padding-right: 2rem;
     font-family: splatfont-2;

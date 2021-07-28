@@ -6,12 +6,12 @@
     src: url('./fonts/Splatfont2.ttf');
 }
 
-.Heading {
+.heading {
     font-family: splatfont-2;
     margin: 0%;
 }
 
-.Description {
+.description {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -26,13 +26,13 @@ body {
 
     background-color: #F02D7D; /* Default background color, 
     but other pages may have diffent ones */
-    
+
     z-index: -1; /*So background doesn't unintentionally cover content*/
     color: white;
     padding-left: 0.5%;
 }
 
-.Children {
+.children {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
