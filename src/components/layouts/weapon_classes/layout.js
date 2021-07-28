@@ -5,7 +5,7 @@ import * as Style from '../../../css/main.module.css';
 // Layout that will be used in every Weapon Class page
 const Layout = ({headingTitle, description, image, imageAlt, stats, children}) => {
     return (
-        <div className={Style.Container}>
+        <div>
             <h1 className={Style.Heading}>{headingTitle}</h1>
             <p className={Style.Description}>{description}</p>
             <div className={Style.Children}>

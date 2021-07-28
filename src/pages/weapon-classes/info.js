@@ -4,7 +4,7 @@ import * as Style from '../../css/main.module.css';
 
 const WeaponClassesPage = () => {
   return (
-    <div className={Style.Container}>
+    <div>
       <WeaponHeader/>
       <h1 className={Style.Heading}>Weapon Classes</h1>
       <p className={Style.Description}>This section of the site is about the different types of weapon classes and what they can do. 
