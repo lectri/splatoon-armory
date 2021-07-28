@@ -1,5 +1,4 @@
 import * as React from 'react';
-import WeaponHeader from "../../components/headers/weapon-class-header";
 import Layout from '../../components/layouts/weapon_classes/layout';
 import picture from '../../images/splattershot.jpeg';
 
@@ -22,7 +21,6 @@ const stats = (
 const ShooterPage = () => {
     return (
         <div>
-            <WeaponHeader/>
             <Layout
                 headingTitle='Shooter'
                 description={description}
