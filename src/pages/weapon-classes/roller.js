@@ -26,12 +26,13 @@ const stats = (
             <li>Handling: 55/100</li>
         </ul>
     </div>
-)
+);
 
 const RollerPage = () => {
     return (
         <div>
             <Helmet>
+                <title>Armory | Splat Roller</title>
                 <body className={rollerBackground}/>
             </Helmet>
             <Layout
