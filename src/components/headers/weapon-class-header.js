@@ -9,6 +9,7 @@ const WeaponHeader = () => {
         <div className='WeaponHeader'>
             <GenericHeader>
                 <ul className={Style.headerList}>
+                    <li className={Style.headerElement}><Link to='/'>Home</Link></li>
                     <li className={Style.headerElement}><Link to='../shooter'>Shooter</Link></li>
                     <li className={Style.headerElement}><Link to='../roller'>Roller</Link></li>
                     <li className={Style.headerElement}><Link>Charger</Link></li>
