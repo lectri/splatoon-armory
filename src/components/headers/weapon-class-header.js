@@ -14,7 +14,7 @@ const WeaponHeader = () => {
                     <li className={Style.headerElement}><Link to='../roller'>Roller</Link></li>
                     <li className={Style.headerElement}><Link to='../charger'>Charger</Link></li>
                     <li className={Style.headerElement}><Link to="../slosher">Slosher</Link></li>
-                    <li className={Style.headerElement}><Link>Splatling</Link></li>
+                    <li className={Style.headerElement}><Link to="../splatling">Splatling</Link></li>
                     <li className={Style.headerElement}><Link>Dualies</Link></li>
                     <li className={Style.headerElement}><Link>Brellas</Link></li>
                 </ul>
