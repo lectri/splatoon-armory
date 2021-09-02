@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../../components/layouts/weapon_classes/layout';
 import picture from '../../images/charger.jpeg';
-import { chargerBackground } from '../../css/main.module.css';
+import { chargerBackground } from '../../css/backgrounds.module.css';
 import { Helmet } from 'react-helmet';
 
 const description = (

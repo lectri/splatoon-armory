@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../../components/layouts/weapon_classes/layout';
 import picture from '../../images/splat_roller.jpeg';
-import { rollerBackground } from '../../css/main.module.css';
+import { rollerBackground } from '../../css/backgrounds.module.css';
 import { Helmet } from 'react-helmet';
 
 // Variable used to put JSX tags in a prop

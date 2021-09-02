@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../../components/layouts/weapon_classes/layout';
 import picture from '../../images/splatling.jpeg';
-import { splatlingBackground } from '../../css/main.module.css';
+import { splatlingBackground } from '../../css/backgrounds.module.css';
 import { Helmet } from 'react-helmet';
 
 const description = (

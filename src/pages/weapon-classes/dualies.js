@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../../components/layouts/weapon_classes/layout';
 import picture from '../../images/dualies.jpeg';
-import { dualiesBackground } from '../../css/main.module.css';
+import { dualiesBackground } from '../../css/backgrounds.module.css';
 import { Helmet } from 'react-helmet';
 
 const description = (
