@@ -12,11 +12,11 @@ const WeaponHeader = () => {
                     <li className={Style.headerElement}><Link to='/'>Home</Link></li>
                     <li className={Style.headerElement}><Link to='../shooter'>Shooter</Link></li>
                     <li className={Style.headerElement}><Link to='../roller'>Roller</Link></li>
-                    <li className={Style.headerElement}><Link>Charger</Link></li>
-                    <li className={Style.headerElement}><Link>Slosher</Link></li>
-                    <li className={Style.headerElement}><Link>Splatling</Link></li>
-                    <li className={Style.headerElement}><Link>Dualies</Link></li>
-                    <li className={Style.headerElement}><Link>Brellas</Link></li>
+                    <li className={Style.headerElement}><Link to='../charger'>Charger</Link></li>
+                    <li className={Style.headerElement}><Link to="../slosher">Slosher</Link></li>
+                    <li className={Style.headerElement}><Link to="../splatling">Splatling</Link></li>
+                    <li className={Style.headerElement}><Link to="../dualies">Dualies</Link></li>
+                    <li className={Style.headerElement}><Link to="../brella">Brellas</Link></li>
                 </ul>
             </GenericHeader>
         </div>
