@@ -16,7 +16,7 @@ const WeaponHeader = () => {
                     <li className={Style.headerElement}><Link to="../slosher">Slosher</Link></li>
                     <li className={Style.headerElement}><Link to="../splatling">Splatling</Link></li>
                     <li className={Style.headerElement}><Link to="../dualies">Dualies</Link></li>
-                    <li className={Style.headerElement}><Link>Brellas</Link></li>
+                    <li className={Style.headerElement}><Link to="../brella">Brellas</Link></li>
                 </ul>
             </GenericHeader>
         </div>
