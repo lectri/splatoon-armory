@@ -7,3 +7,10 @@
     max-width: 350px;
     border: 5px solid white;
 }
+
+.weapon-info {
+    margin: auto;
+    max-width: 50%;
+    min-width: 25%;
+    padding: 10px;
+}
