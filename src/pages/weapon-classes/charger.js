@@ -9,7 +9,8 @@ const description = (
         <p>
             The charger specializes in long range combat. Don't let your opponents sneak up on you!
             It's difficult to get kills from close up. The sniper has a laser that you and 
-            everyone else (including enemies can see. Try to hide your laser before sniping people.
+            everyone else (including enemies can see. Try to hide your laser before sniping people. </p>
+            <p>
             Also, there are two variants of a sniper, scoped and unscoped. Unscoped has less range with more visibility, and scoped has the opposite.
             Also, if you charge your scope and then go into squid form, you can hold you charge for a second to use it later.
         </p>
@@ -19,14 +20,11 @@ const description = (
 
 const stats = (
     <div>
-        <p>
-        <p>The flagship sniper is the Splat Charger. Here are its stats.</p>
             <ul>
                 <li>Damage: 88/100</li>
                 <li>Charge Speed: 50/100</li>
                 <li>Mobility: 40/100</li>
             </ul>
-        </p>
     </div>
 );
 
