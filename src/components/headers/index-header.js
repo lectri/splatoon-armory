@@ -9,7 +9,6 @@ const IndexHeader = ({ pageTitle }) => {
         <GenericHeader>
                 {/* If there's no link that means the section hasn't been added yet*/}
                 <ul className={Style.headerList}>
-                    <li className={Style.headerElement}><Link to='/'>Home</Link></li>
                     <li className={Style.headerElement}><Link to='/weapon-classes/info'>Main Weapon Classes</Link></li>
                     <li className={Style.headerElement}><Link>Sub-Weapons</Link></li>
                     <li className={Style.headerElement}><Link>Special Weapons</Link></li>

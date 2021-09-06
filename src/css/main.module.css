@@ -8,11 +8,21 @@
 
 .heading {
     font-family: splatfont-2;
+    text-align: center;
     margin: 0%;
 }
 
 .description {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stats-heading {
+    text-align: center;
+}
+
+.stats {
+    max-width: 25%;
+    margin: auto;
 }
 
 body {
