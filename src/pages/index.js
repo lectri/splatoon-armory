@@ -11,7 +11,7 @@ const IndexPage = () => {
       </Helmet>
       <IndexHeader/>
       <h1 className={Style.heading}>Home</h1>
-      <p className={Style.description}>Welcome to the Splatoon 2 Armory. We're all about Splatoon 2's guns and fighting tatics. 
+      <p className={Style.description}>Welcome to the Splatoon 2 Armory. We're all about Splatoon 2's guns and fighting tactics. 
       Check out the links in the header to learn more.
       </p>
     </div>
